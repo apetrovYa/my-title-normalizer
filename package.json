@@ -1,0 +1,17 @@
+{
+  "name": "my-string-normalizer",
+  "version": "1.0.0",
+  "description": "A very simple CLI for normalizing input strings into word-word-word-word format",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/tests.js"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "andov.go@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  }
+}
