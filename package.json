@@ -1,5 +1,5 @@
 {
-  "name": "my-string-normalizer",
+  "name": "my-title-normalizer",
   "version": "1.0.0",
   "description": "A very simple CLI for normalizing input strings into word-word-word-word format",
   "main": "index.js",
@@ -15,12 +15,14 @@
     "mocha": "^7.2.0"
   },
   "dependencies": {
+    "ansi-colors": "^4.1.1",
     "cac": "^6.5.10",
     "command-line-args": "^5.1.1",
     "command-line-usage": "^6.1.0",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "out": "^1.1.0"
   },
   "bin": {
-    "title-normalizer": "./index.js"
+    "my-title-normalizer": "index.js"
   }
 }
