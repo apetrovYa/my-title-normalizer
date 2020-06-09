@@ -13,6 +13,7 @@ me to normalize the titles of the files on my local laptop.
 The script expects a string in input. The output will be possibly
 a string like the following: aaaaa-bbbbb-ccccc-dddd.
 Where {a,b,c,d} are arbitrary sequences of chars.
+In between the script transforms an input into output.
 
 ## Why this tool
 
