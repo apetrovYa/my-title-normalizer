@@ -1,8 +1,18 @@
+#!/usr/bin / env node
 
-const Normalizer = require('./lib/strategy/concreteNormalizeStrategyV1');
+var Title = require('./lib/facade/title');
+const cli = require('cac')("my-title-normalizer");
 
-let arguments = process.argv.slice(2);
-let title = arguments[0];
-myTitle = new Normalizer(title);
-myTitle.normalize();
-myTitle.printTitle();
+cli
+    .command('[input]', 'Transform the given title')
+    .example('my-title-normalizer "This Text Will Be Transformed"')
+    .action((input) => {
+        console.log("ORIGINAL TITLE: " + input);
+        let t = new Title(input);
+        t.normalize();
+        console.log("NORMALIZED TITLE: " + t.getText());
+    });
+cli.help();
+cli.version('1.0.0');
+cli.parse();
+

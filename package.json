@@ -13,5 +13,14 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "^7.2.0"
+  },
+  "dependencies": {
+    "cac": "^6.5.10",
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.0",
+    "lodash": "^4.17.15"
+  },
+  "bin": {
+    "title-normalizer": "./index.js"
   }
 }

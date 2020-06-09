@@ -3,5 +3,8 @@ SHELL := /bin/bash
 dependencies:
 	npm install
 
-tests:
-		npm test
+testing:
+	npm test
+
+install-locally:
+	npm install -g
