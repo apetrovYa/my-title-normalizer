@@ -6,7 +6,9 @@ me to normalize the titles of the files on my local laptop.
 ## How to install
 
 1. Clone ths repo `git clone git@github.com:apetrovYa/my-title-normalizer.git`;
-2. Execute the local Bash wrapper `./my-title-normalizer "My Title   To Normalizer";`
+2. From the repository folder, execute the following command to install via npm:
+   `npm install -g`;
+3. At this stage, just invoke the CLI: `my-title-normalizer "Hello World"`.
 
 ## How it works
 

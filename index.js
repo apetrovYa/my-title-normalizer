@@ -1,4 +1,4 @@
-#!/usr/bin / env node
+#!/usr/local/bin/node
 
 var Title = require('./lib/facade/title');
 const cli = require('cac')("my-title-normalizer");
