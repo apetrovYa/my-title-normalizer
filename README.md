@@ -20,3 +20,27 @@ In between the script transforms an input into output.
 ## Why this tool
 
 The main motivation: explore minimalistically Javascript.
+
+## New improvement to be structured
+
+```javascript
+(function(input){
+  'use strict';
+  if (input == undefined) {
+    console.log("No input defined");
+    return 
+  }
+  let storage_container = {};
+  let output = "temp";
+  let outputArray = [];
+  
+  let regular_expr = /[a-zA-Z]+/g;
+
+  
+  storage_container[output] = input.toLowerCase();
+  storage_container[output] = storage_container[output].trim();
+  storage_container[outputArray] = [...storage_container[output].matchAll(regular_expr)];
+  console.log(storage_container[outputArray].toString().replaceAll(/,/g , "-" ));
+  
+})(":  ::::___+++   -Mio Titolo da calcolare- :   ");
+```
