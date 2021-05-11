@@ -19,7 +19,7 @@
     "cac": "^6.5.10",
     "command-line-args": "^5.1.1",
     "command-line-usage": "^6.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "out": "^1.1.0"
   },
   "bin": {
